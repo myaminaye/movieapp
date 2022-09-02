@@ -1,0 +1,38 @@
+{
+  "movies": [
+    {
+      "name": "House of the Dragon",
+      "genre": "Drama, Action & Adventure, Sci-Fi & Fantasy, Mystery",
+      "overview": "The prequel series finds the Targaryen dynasty at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires—real and imagined—crumble from such heights. In the case of the Targaryens, their slow fall begins almost 193 years before the events of Game of Thrones, when King Viserys Targaryen breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+      "photo": "https://www.themoviedb.org/t/p/w220_and_h330_face/z2yahl2uefxDCl0nogcRBstwruJ.jpg",
+      "rating": "88%",
+      "id": 1
+    },
+    {
+      "name": "She-Hulk: Attorney at Law",
+      "genre": "Comedy, Sci-Fi & Fantasy",
+      "overview": "Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk.",
+      "photo": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hJfI6AGrmr4uSHRccfJuSsapvOb.jpg",
+      "rating": "74%",
+      "id": 2
+    },
+    {
+      "name": "Big Mouth",
+      "overview": "Who  is big mouse?",
+      "rating": "70",
+      "id": 3
+    },
+    {
+      "name": "Minions",
+      "overview": "Cartoon cute movie",
+      "rating": "100",
+      "id": 4
+    },
+    {
+      "name": "Bridgerton",
+      "overview": "During the Regency era in England, eight close-knit siblings of the powerful Bridgerton family attempt to find love.",
+      "rating": "99%",
+      "id": 5
+    }
+  ]
+}
