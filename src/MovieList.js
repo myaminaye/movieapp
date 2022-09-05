@@ -4,10 +4,12 @@ const MovieList = ({ movies }) => {
   return (
     <div className="movie-list">
       {movies.map((movie) => (
-        <div className="movie-preview" key={movie.id}>
+        <div className="movie-preview" key={movie.id} >
+          {/* style={{backgroundImage: `url(${movie.photo})`,backgroundSize: 'cover'}} */}
             <Link to={`/movies/${movie.id}`}>
+                <img src={movie.photo}></img><br/>
                 <h2>{movie.name}</h2>
-                <p>Genre {movie.genre}</p>
+                <p>Rating {movie.rating}</p>
             </Link>
           </div>
       ))}

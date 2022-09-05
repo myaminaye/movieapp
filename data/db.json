@@ -17,21 +17,27 @@
       "id": 2
     },
     {
-      "name": "Big Mouth",
-      "overview": "Who  is big mouse?",
-      "rating": "70",
+      "name": "The Secret House",
+      "genre": "Drama",
+      "overview": "A story about quitting being a good boy and chasing evil to the end for the sake of the mother and sister who sacrificed for themselves. A revenge play in which a dirt spoon lawyer chasing the traces of his missing mother walks into the secret surrounding him to fight the world.",
+      "photo": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wNN9hJDV45BF2PiJQQVwBCiqLIl.jpg",
+      "rating": "53%",
       "id": 3
     },
     {
-      "name": "Minions",
-      "overview": "Cartoon cute movie",
-      "rating": "100",
+      "name": "Nope",
+      "genre": "Horror, Mystery, Science Fiction, Thriller",
+      "overview": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
+      "photo": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
+      "rating": "71%",
       "id": 4
     },
     {
-      "name": "Bridgerton",
-      "overview": "During the Regency era in England, eight close-knit siblings of the powerful Bridgerton family attempt to find love.",
-      "rating": "99%",
+      "name": "Your name",
+      "genre": "Romance, Animation, Drama",
+      "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+      "photo": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/q719jXXEzOoYaps6babgKnONONX.jpg",
+      "rating": "85%",
       "id": 5
     }
   ]

@@ -49,14 +49,15 @@
 .movie-preview {
   box-sizing: border-box;
   width: 300px ;
-  padding: 10px 20px;
-  margin: 20px;
-  border: 2px solid #BBE1FA;
+  padding: 5px 10px;
+  margin: 10px;
+  /* border: 1px solid #BBE1FA; */
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  text-align: center;
 }
 .movie-preview:hover {
   background-color: #BBE1FA;
@@ -65,6 +66,10 @@
   font-size: 20px;
   color: #3282B8;
   margin-bottom: 8px;
+}
+
+.movie-preview img{
+  width: 130px;
 }
 
 .movie-list a{
@@ -108,34 +113,41 @@
   -o-border-radius: 10px;
 }
 
-/* create new movie form */
-.create {
+/* search movie */
+.search {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
 }
-.create label {
+.search label {
   text-align: left;
   display: block;
+  font-size: 16px ;
 }
-.create h2 {
-  font-size: 20px;
+.search h2 {
+  font-size: 24px;
   color: #3282B8;
   margin-bottom: 30px;
 }
-.create input, .create textarea, .create select {
+.search input, .search textarea, .search select {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
   border: 1px solid #ddd;
   box-sizing: border-box;
   display: block;
+  font-size: 16px ;
 }
-.create button {
+.search button {
+  font-size: 16px ;
   background: #3282B8;
   color: #fff;
   border: 0;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 10px;
   cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
