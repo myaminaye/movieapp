@@ -113,7 +113,7 @@
   -o-border-radius: 5px;
 }
 
-.movie-details select{
+.movie-details input {
   padding: 5px ;
   font-size: 16px;
   margin-right: 10px;

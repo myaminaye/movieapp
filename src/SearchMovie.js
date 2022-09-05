@@ -1,16 +1,18 @@
-const SearchMovie = ({movies}) => {
+import React,{ useState } from "react";
 
-  const resultmovie = movies;
-  console.log(resultmovie);
-  
-  const handleSearch = () =>{
+const SearchMovie = ({handleSearch, resetMovies}) => {
 
-  }
+  const [search, setSearch] = useState('');
     return ( 
         <div className="search-movie">
-          <input type='text' />
-          <button type="submit" onClick={handleSearch}>Search</button>
-          <button type="reset">Clear</button>
+          <input type='text' value={search} onChange={(e) => setSearch(e.target.value)} />
+          <button type="submit" onClick={(e)=> {
+            e.preventDefault();
+            handleSearch(search)
+          }}>Search</button>
+          <button type="reset" onClick={(e)=>{
+            resetMovies();
+          }}>Clear</button>
         </div>
      );
 }

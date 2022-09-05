@@ -9,7 +9,7 @@ const MovieList = ({ movies }) => {
             <Link to={`/movies/${movie.id}`}>
                 <img src={movie.photo}></img><br/>
                 <h2>{movie.name}</h2>
-                <p>Rating {movie.rating}</p>
+                <p>Rating {movie.rating} %</p>
             </Link>
           </div>
       ))}

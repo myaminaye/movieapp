@@ -11,13 +11,14 @@ const MovieDetails = () => {
     isPending,
   } = useFetch("http://localhost:8000/movies/" + id);
 
-  let [rating, setRating] = useState('80');
+  let [rating, setRating] = useState('');
+  // console.log(rating);
   const history = useNavigate();
 
-  const handleRate = (e) => {
-    e.preventDefault();
-    setRating(e.target.value);
+  const handleRating = (e) => {
+    movie.rating = rating;
     console.log(rating);
+    setRating('');
   };
 
   return (
@@ -28,18 +29,26 @@ const MovieDetails = () => {
         <article>
           <h2>{movie.name}</h2>
           <p>{movie.genre}</p>
-          <p className="rating">Rating: {movie.rating}</p>
+          <p className="rating">Rating: {movie.rating} %</p>
           <img src={movie.photo}></img>
           <br />
           <div>{movie.overview}</div>
-          <select value={rating} onChange={(e) => setRating(e.target.value)}>
+
+          {/* <select value={rating} onChange={(e) => setRating(e.target.value)}>
             <option value="0">0%</option>
             <option value="10">10%</option>
             <option value="20">20%</option>
             <option value="50">50%</option>
             <option value="90">90%</option>
-          </select>
-          <button onClick={handleRate}>Rate Again</button>
+          </select> */}
+
+          <input type='number' min='0' max='100' step ='5' value={rating} onChange={(e) => setRating(e.target.value)} />
+          <button type="submit" onClick={(e)=> {
+            e.preventDefault();
+            handleRating(rating);
+          }}>Rate the movie again</button>
+
+          {/* <button onClick={handleRate}>Rate Again</button> */}
         </article>
       )}
     </div>
