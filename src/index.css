@@ -104,50 +104,49 @@
   color: #fff;
   font-size: 18px;
   border: 0;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
   cursor: pointer;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.movie-details select{
+  padding: 5px ;
+  font-size: 16px;
+  margin-right: 10px;
+
 }
 
 /* search movie */
-.search {
-  max-width: 400px;
-  margin: 0 auto;
+.search-movie {
+  max-width: 1000px;
+  margin: 10px;
   text-align: center;
+  display: flex;
 }
-.search label {
-  text-align: left;
-  display: block;
-  font-size: 16px ;
-}
-.search h2 {
-  font-size: 24px;
-  color: #3282B8;
-  margin-bottom: 30px;
-}
-.search input, .search textarea, .search select {
+
+.search-movie input {
   width: 100%;
-  padding: 6px 10px;
-  margin: 10px 0;
+  padding: 6px 5px;
+  
   border: 1px solid #ddd;
   box-sizing: border-box;
-  display: block;
   font-size: 16px ;
 }
-.search button {
+.search-movie button {
   font-size: 16px ;
   background: #3282B8;
   color: #fff;
   border: 0;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 0 15px;
+  margin: 0 5px;
+  border-radius: 5px;
   cursor: pointer;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }

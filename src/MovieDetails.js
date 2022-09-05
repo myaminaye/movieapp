@@ -17,6 +17,7 @@ const MovieDetails = () => {
   const handleRate = (e) => {
     e.preventDefault();
     setRating(e.target.value);
+    console.log(rating);
   };
 
   return (
