@@ -1,3 +1,23 @@
+# POPCORN PICKS
+#### Video Demo:  
+#### Description:
+
+Popcorn Picks is a feature-rich and aesthetically appealing website created for movie buffs to browse, search, and find well-known films from the collection of TMDb (The Movie Database). This website provides the following features with an easy-to-use interface:
+
+Popular Movie Listings: Look through the most recent popular films with comprehensive details, such as reviews, genres, and synopses.
+
+Search Features: Use keywords to find movies with ease, and the results will appear on all pages for a thorough look.
+
+Pagination: Use easy-to-use pagination, such as numbered pages and next/previous navigation, to browse movie listings.
+
+Explore the genres, ratings, synopses, and poster images of your favorite films in-depth on these detailed movie pages.
+
+Interactive Rating System: On the movie details page, rate films and express your personal thoughts.
+
+Error-Free Navigation: When browsing invalid URLs, a beautifully designed "Not Found" page appears, guaranteeing a flawless user experience.
+
+In order to provide a dynamic and responsive movie browsing experience, this project makes use of contemporary web development technologies such as Material-UI, React.js, and the TMDb API. Popcorn Picks is the place to go if you want to find amazing movies, regardless of whether you're an avid moviegoer or a casual viewer.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

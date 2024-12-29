@@ -5,15 +5,16 @@ import MovieDetails from './MovieDetails';
 import NotFound from './NotFound';
 
 function App() {
+
   return (
     <Router>
       <div className="App">
         <Navbar />
         <div className="content">
           <Routes>
-            <Route path="/" element={<Home />} /> 
-            <Route path="/movies/:id" element={<MovieDetails/>} />
-            <Route path='*' element={<NotFound />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/movies/:id" element={<MovieDetails />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
