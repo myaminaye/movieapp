@@ -1,1 +1,1 @@
-export const tmdbAPIkey = "e861f9c782e59f058855c602fefd23c3";
+export const tmdbAPIkey = process.env.REACT_APP_TMDB_API_KEY;

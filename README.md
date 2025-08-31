@@ -1,5 +1,6 @@
 # POPCORN PICKS
-#### Video Demo:  
+#### Video Demo:  https://www.youtube.com/watch?v=MBHAsDzC48M
+#### Live Demo: https://popcorn-picks-movies.netlify.app/
 #### Description:
 
 Popcorn Picks is a feature-rich and aesthetically appealing website created for movie buffs to browse, search, and find well-known films from the collection of TMDb (The Movie Database). This website provides the following features with an easy-to-use interface:
